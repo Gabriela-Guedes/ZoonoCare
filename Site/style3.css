@@ -1,0 +1,17 @@
+img {
+  display: block; /* transforma em bloco, necessário para centralizar */
+  margin-left: auto; /* margens automáticas centralizam horizontalmente */
+  margin-right: auto;
+  max-width: 100%; /* mantém responsividade */
+  height: auto; /* mantém proporção da imagem */
+}
+
+/* Opcional: adiciona bordas suaves e espaçamento */
+img {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imgzoo {
+  width: 250px;
+}

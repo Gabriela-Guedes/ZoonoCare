@@ -1,0 +1,36 @@
+* {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 500px;
+  margin: 0 auto;
+}
+label {
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: #0b5ed7;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
